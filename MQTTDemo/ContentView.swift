@@ -16,7 +16,6 @@ struct ContentView: View {
     
     let mqttClient = CocoaMQTT(clientID: "iPhone", host: mqttIp, port: mqttPort)
     
-    
     var body: some View {
         VStack {
             Spacer()
@@ -50,7 +49,6 @@ struct ContentView: View {
                    self.mqttClient.subscribe("basement/Bed_Room")
                    self.mqttClient.didReceiveMessage = { mqtt, message, id in
                     self.payload = "Message received in topic \(message.topic) with payload \(message.string!)"
-                    
                    }
                 }
                 mqttClient.connect()
