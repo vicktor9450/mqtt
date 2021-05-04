@@ -12,6 +12,7 @@
 		A4882D0C26400E6F0047BC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4882D0B26400E6F0047BC6A /* ContentView.swift */; };
 		A4882D0E26400E700047BC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4882D0D26400E700047BC6A /* Assets.xcassets */; };
 		A4882D1126400E700047BC6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4882D1026400E700047BC6A /* Preview Assets.xcassets */; };
+		A495656E26413F0300C3963E /* Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495656D26413F0300C3963E /* Secure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A4882D0D26400E700047BC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4882D1026400E700047BC6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4882D1226400E700047BC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A495656D26413F0300C3963E /* Secure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secure.swift; sourceTree = "<group>"; };
 		AC96CE979CED85AC11941518 /* Pods_MQTTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 			children = (
 				A4882D0926400E6F0047BC6A /* MQTTDemoApp.swift */,
 				A4882D0B26400E6F0047BC6A /* ContentView.swift */,
+				A495656D26413F0300C3963E /* Secure.swift */,
 				A4882D0D26400E700047BC6A /* Assets.xcassets */,
 				A4882D1226400E700047BC6A /* Info.plist */,
 				A4882D0F26400E700047BC6A /* Preview Content */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4882D0C26400E6F0047BC6A /* ContentView.swift in Sources */,
+				A495656E26413F0300C3963E /* Secure.swift in Sources */,
 				A4882D0A26400E6F0047BC6A /* MQTTDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
